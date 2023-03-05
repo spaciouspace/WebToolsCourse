@@ -18,6 +18,7 @@
         <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
         <link rel="manifest" href="images/favicon/manifest.json">
+        <link rel="stylesheet" href="style.css">
         <title>Contact Us</title>
     </head>
     <body>
@@ -37,43 +38,44 @@
                 <legend>Get in Touch</legend>
                 <h2>Personal Info</h2>
                 <form action="mailto:sherd@dallascollege.edu" id="contact" method="post">
-                <p>
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" placeholder="Last Name">
-                </p>
-                <p>
-                    <label for="first-name">First Name</label>
-                    <input type="text" id="first-name" name="first-name" placeholder="First Name">
-                </p>
-                <p>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email">
-                </p>
-                <h2>Type of contact</h2>
-                <p>
-                    <label for="thoughts">Your Thoughts</label>
-                    <textarea name="thoughts" id="thoughts" cols="30" rows="10"></textarea>
-                </p>
-                <p>
-                    <label for="suggestion">Suggetion</label>
-                    <input type="radio" id="suggestion" name="suggestion"><br>
-                    <label for="comment">Comment</label>
-                    <input type="radio" id="comment" name="comment"><br>
-                    <label for="question">Question</label><input type="radio" id="question">
-                </p>
+                    <p>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Last Name">
+                    </p>
+                    <p>
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </p>
+                    <h2>Type of contact</h2>
+                    <p>
+                        <label for="thoughts">Your Thoughts</label>
+                        <textarea name="thoughts" id="thoughts" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <label for="suggestion">Suggetion</label>
+                        <input type="radio" id="suggestion" name="contact-type"><br>
+                        <label for="comment">Comment</label>
+                        <input type="radio" id="comment" name="contact-type"><br>
+                        <label for="question">Question</label>
+                        <input type="radio" id="question"name="contact-type">
+                    </p>
 
-                <p>
-                    <label for="about-visitor">Type of Visitor</label>
-                    <select name="about-visitor" id="about-visitor">
-                        <option value="1">I'm a fan</option>
-                        <option value="2">I'd like to be a fan</option>
-                        <option value="3">I'm a hater/troll</option>
-                    </select>
-                </p>
-                <p><label for="signup">Sign Up For Newsletter</label><input type="checkbox" id="signup" name="signup"></p>
-                <p><input type="submit" id="submit" value="Submit Form"></p>
+                    <p>
+                        <label for="about-visitor">Type of Visitor</label>
+                        <select name="about-visitor" id="about-visitor">
+                            <option value="1">I'm a fan</option>
+                            <option value="2">I'd like to be a fan</option>
+                            <option value="3">I'm a hater/troll</option>
+                        </select>
+                    </p>
+                    <p><label for="signup">Sign Up For Newsletter</label><input type="checkbox" id="signup" name="signup"></p>
+                    <p><input type="submit" id="submit" value="Submit Form"></p>
 
-                <p><input type="reset" value="Erase everything"></p>
+                    <p><input type="reset" value="Erase everything"></p>
                 </form>
             </fieldset>
         </section>
