@@ -33,21 +33,39 @@ h2, h3 {
 }
 
 mark {
-    background-color: var(--fifth-color);
+    background-color: var(--fourth-color);
 }
 
-header a {
+/* header a {
     color: var(--third-color);
-}
+} */
 
-header a:hover {
+/* header a:hover {
     color: var(--fourth-color);
+    font-size: 1.2em;
 }
 header a:active {
     color: var(--fifth-color);
 }
 
 header a:visited {
+    color: var(--third-color);
+} */
+
+a.dark {
+    color: var(--third-color); 
+    text-decoration: none
+}
+
+a.dark:hover {
+    color: var(--fourth-color);
+    font-size: 1.2em;
+}
+a.dark:active {
+    color: var(--fifth-color);
+}
+
+a.dark:visited {
     color: var(--third-color);
 }
 
@@ -57,7 +75,7 @@ a {
 }
 
 a:hover {
-    color: var(--primary-color);
+    color: var(--fourth-color);
 }
 
 a:active {
