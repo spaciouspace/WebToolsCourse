@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #001B2E;
+    --secondary-color: #294C60;
+    --third-color: #e3e3e3;
+    --fourth-color: #94FBAB;
+    --fifth-color: #e2a4c4;
+    --sixth-color: #A5ABAF;
+    --light-green: #bcf8d3;
+    --light-blue: #bad9df;
+}
+
+header {
+    padding: 2em;
+}
+
+.dark {
+    padding: 2em;
+}
+
+blockquote {
+    border-radius: 25%;
+}
+
+.lyrics {
+    max-height: 30em;
+    overflow: auto;
+}
+
+
+figure img {
+    border-radius: 25%;
+    margin: 0 auto;
+    display: block;
+}
+
+figure {
+    box-sizing: border-box;
+    margin: 0.5rem 0.5rem;
+    max-width: 100%;
+    min-width: 300px;
+    width: 25%;
+    float: left;
+    border: thin solid var(--fourth-color);
+    border-radius: 20%;
+}
+
+legend {
+    border-radius: 50%;
+}
+
+fieldset.dark h2, fieldset.dark h3, fieldset.dark h4, fieldset.dark h5, fieldset.dark h6 {
+    color: var(--third-color);
+} 
+
+.pseudoheading {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+textarea {
+    display: block;
+}
