@@ -52,6 +52,10 @@ mark {
     background-color: var(--fourth-color);
 }
 
+blockquote {
+    border-radius: 25%;
+}
+
 ul {
     list-style: none;
 }
@@ -137,6 +141,11 @@ tr:nth-child(odd) {
     max-height: 30em;
     overflow: auto;
 }
+
+figure img {
+    border-radius: 25%;
+}
+
 figure {
     box-sizing: border-box;;
     margin: 0.5em 0.5em;
