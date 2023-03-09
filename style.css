@@ -123,3 +123,7 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: var(--light-blue);
 }
+
+legend.dark{
+    background-color: var(--secondary-color);
+}
