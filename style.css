@@ -4,11 +4,19 @@
     --third-color: #e3e3e3;
     --fourth-color: #94FBAB;
     --fifth-color: #e2a4c4;
+    --sixth-color: #A5ABAF;
+    --light-green: #bcf8d3;
+    --light-blue: #bad9df;
 }
 
 body {
     background-color: var(--third-color);
     font-family: 'Proza Libre', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+p {
     color: black;
     font-size: 1.2em;
 }
@@ -19,6 +27,10 @@ header {
     color: white;
 }
 
+.dark {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
 
 h1 {
     color: var(--secondary-color);
@@ -26,7 +38,7 @@ h1 {
     font-family: 'Princess Sofia', cursive;
 }
 
-h2, h3 {
+h2, h3, h4, h5, h6 {
     color: var(--secondary-color);
     font-family: 'Berkshire Swash', cursive;
 
@@ -36,38 +48,45 @@ mark {
     background-color: var(--fourth-color);
 }
 
-/* header a {
-    color: var(--third-color);
-} */
-
-/* header a:hover {
-    color: var(--fourth-color);
-    font-size: 1.2em;
-}
-header a:active {
-    color: var(--fifth-color);
+ul {
+    list-style: none;
 }
 
-header a:visited {
+header a {
     color: var(--third-color);
-} */
+}
 
 a.dark {
     color: var(--third-color); 
-    text-decoration: none
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--fourth-color);
+    font-size: 1.2em;
 }
 
 a.dark:hover {
     color: var(--fourth-color);
     font-size: 1.2em;
 }
+
+header a:active {
+    color: var(--fifth-color);
+}
+
 a.dark:active {
     color: var(--fifth-color);
+}
+
+header a:visited {
+    color: var(--third-color);
 }
 
 a.dark:visited {
     color: var(--third-color);
 }
+
 
 a {
     color: var(--secondary-color); 
@@ -75,14 +94,36 @@ a {
 }
 
 a:hover {
-    color: var(--fourth-color);
+    color: var(--fifth-color);
 }
 
 a:active {
-    color: var(--fifth-color);
+    color: var(--primary-color);
     /* color: var(--fourth-color); */
 }
 a:visited {
     color: var(--secondary-color);
+}
+
+table {
+    background-color: var(--primary-color);
+}
+
+#album {
+    background-color: white;
+}
+
+td[headers="track"] {
+    text-align: center;
+}
+
+th {
+    background-color: var(--light-green);
+}
+tr:nth-child(even) {
+    background-color: var(--light-green);
+}
+tr:nth-child(odd) {
+    background-color: var(--light-blue);
 }
 
