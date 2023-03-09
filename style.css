@@ -30,6 +30,7 @@ header {
 .dark {
     background-color: var(--primary-color);
     color: var(--third-color);
+    padding: 2em;
 }
 
 h1 {
@@ -130,3 +131,9 @@ tr:nth-child(odd) {
     background-color: var(--light-blue);
 }
 
+figure {
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 25%;
+    float: left
+}
