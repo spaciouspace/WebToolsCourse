@@ -17,6 +17,7 @@ body {
 }
 
 p {
+    font-family: 'Proza Libre', sans-serif;
     color: black;
     font-size: 1.2em;
 }
@@ -61,6 +62,15 @@ a.dark {
     text-decoration: none;
 }
 
+header a:visited {
+    color: var(--third-color);
+}
+
+a.dark:visited {
+    color: var(--third-color);
+}
+
+
 header a:hover {
     color: var(--fourth-color);
     font-size: 1.2em;
@@ -79,18 +89,15 @@ a.dark:active {
     color: var(--fifth-color);
 }
 
-header a:visited {
-    color: var(--third-color);
-}
-
-a.dark:visited {
-    color: var(--third-color);
-}
 
 
 a {
     color: var(--secondary-color); 
     text-decoration: none
+}
+
+a:visited {
+    color: var(--secondary-color);
 }
 
 a:hover {
@@ -100,9 +107,6 @@ a:hover {
 a:active {
     color: var(--primary-color);
     /* color: var(--fourth-color); */
-}
-a:visited {
-    color: var(--secondary-color);
 }
 
 table {
