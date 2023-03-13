@@ -27,6 +27,14 @@ blockquote {
 }
 
 
+#album {
+    min-height: 1em;
+    vertical-align: bottom;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+
 figure img {
     border-radius: 25%;
     margin: 0 auto;
@@ -65,3 +73,11 @@ fieldset.dark h2, fieldset.dark h3, fieldset.dark h4, fieldset.dark h5, fieldset
 textarea {
     display: block;
 }
+
+th, td {
+    padding: 5px;
+    border: 1px solid;
+    border-spacing: 30px;
+    border-collapse: collapse;
+}
+

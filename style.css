@@ -12,7 +12,7 @@ p {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--third-color);
 }
 
 .dark {
@@ -66,7 +66,7 @@ a.dark:visited {
 
 header a:hover {
     color: var(--fourth-color);
-    font-size: 1.05em;
+    font-size: 1.01em;
 }
 
 a.dark:hover {
@@ -107,7 +107,8 @@ table {
 }
 
 #album {
-    background-color: white;
+    /* background-color: var(--third-color); */
+    text-transform: uppercase;
 }
 
 td[headers="track"] {
