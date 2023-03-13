@@ -8,6 +8,9 @@
     --light-green: #bcf8d3;
     --light-blue: #bad9df;
 }
+body {
+    padding: 4%;
+}
 
 header {
     padding: 2em;
