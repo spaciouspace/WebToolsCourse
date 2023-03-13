@@ -81,3 +81,6 @@ th, td {
     border-collapse: collapse;
 }
 
+form {
+    border-collapse: collapse;
+}
