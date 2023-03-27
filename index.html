@@ -24,9 +24,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Princess+Sofia&family=Proza+Libre&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Proza+Libre&display=swap" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="nav-menu.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         #end {
             font-size: 1em;
@@ -37,21 +39,16 @@
     </style>
 </head>
 <body>
-    <header">
-        <!-- <nav>
-                <a href="index.html">Home</a> |
-                <a href="faq.html">FAQ</a> |
-                <a href="gallery.html">Gallery</a> |
-                <a href="contact-us.html">Contact</a>
-        </nav> -->
-        <nav class="topnav dark sticky">
-            <a class="active" href="index.html">Home</a>
-            <a href="faq.html">FAQ</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact-us.html">Contact</a> 
-         </nav>
+    <header>
+        <h1 class="dark">Cat Stevens</h1>
     </header>
-    <main>
+    <nav class="topnav dark sticky">
+        <a class="active" href="index.html">Home</a>
+        <a href="faq.html">FAQ</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact-us.html">Contact</a>
+     </nav>
+<main>
         <article>
             <h1>Cat Stevens</h1>
             <section>
@@ -59,7 +56,7 @@
                 <p>Born in 1948, Cat Stevens has been releasing music since 1967! And at the age of 74, he’s still going.</p>
                 <p>He was born Steven Demetre Georgiou. His girlfriend said he had the eyes of a cat. He thought his unusual name might keep him from getting famous, so he changed his name to Cat Stevens.</p>
                 <h3>A few more details from Wikipedia:</h3>
-                <blockquote class="dark">Yusuf Islam (born Steven Demetre Georgiou; 21 July 1948), commonly known by his stage names Cat Stevens, Yusuf, and Yusuf / Cat Stevens, is a British singer-songwriter and multi-instrumentalist. His musical style consists of folk, pop, rock, and, later in his career, Islamic music. He returned to making secular music in 2006. He was inducted into the Rock and Roll Hall of Fame in 2014.</blockquote>
+                <blockquote class="dark tile">Yusuf Islam (born Steven Demetre Georgiou; 21 July 1948), commonly known by his stage names Cat Stevens, Yusuf, and Yusuf / Cat Stevens, is a British singer-songwriter and multi-instrumentalist. His musical style consists of folk, pop, rock, and, later in his career, Islamic music. He returned to making secular music in 2006. He was inducted into the Rock and Roll Hall of Fame in 2014.</blockquote>
                 <p>
                     A biography of Cat Stevens from the perspective of an avid fan who mourned the loss of his openness and enthusiasm for life can be found in this <a href="https://www.newyorker.com/culture/culture-desk/the-unlikely-return-of-cat-stevens 
                     ">New Yorker</a> article.
@@ -68,9 +65,9 @@
                 <p>He released 15 compilation albums between 1975 and 2013. I wonder if that's how he grew his fan base. One person on YouTube commented, "I'm 23, and I'm his biggest fan." I myself jumped on the train with his 1987 release, and I still find his songs inspiring. He has an impressive 387K subscribers to his personal YouTube channel. His songs, many of which are over 50 years old, have millions of views. The world is a better place because of the creativity and joy that he shared with the world through his music.</p>
             </section>
              <section>
-                <h2>Top 10 Songs</h2>
+                <h2>Top <span class="w3-badge w3-green w3-animate-top">10 </span> Songs</h2>
                 <p>According to UltimateClassicRock.com, here are his 10 most popular songs</p>
-                <ol reversed>
+                <ol reversed class="w3-card-4 padding">
                     <li>Can't Keep It In</li>
                     <li>Hard Headed Woman</li>
                     <li>Moonshadow</li>
@@ -85,7 +82,7 @@
             </section>
             <section>
                 <h2>My personal favorites</h2>                
-                <ul>
+                <ul class="w3-card-4 padding">
                     <li><mark><em><strong><a href="https://www.youtube.com/watch?v=DmAOBosGlHY">If You Want To Sing Out, Sing Out</a></strong></em></mark></li>
                     <li><em><a href="https://www.youtube.com/watch?v=yYMQpDCVYBo">Morning Has Broken</a> </em></li> 
                     <li><em><a href="https://www.youtube.com/watch?v=HExjPn547Z0">Peace Train</a> </em></li>
@@ -95,8 +92,8 @@
             </section>    
             <section>
                 <h3>My Favorite Album</h3>
-                <table>
-                    <caption id="album" class="dark">Classics Volume 24</caption>
+                <table class="w3-table w3-hoverable">
+                    <caption id="album" class="dark tile">Classics Volume 24</caption>
                     <thead>
                         <tr>
                             <th scope="col" abbr="track" id="track">Track</th>
@@ -196,7 +193,7 @@
             </section>
         </article>    
     </main>
-    <footer class="dark">
+    <footer class="dark tile">
         <p id="end">Last updated March 2023</p>
     </footer>
 </body>

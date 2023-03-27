@@ -1,22 +1,29 @@
-:root {
-    --primary-color: #001B2E;
-    --secondary-color: #294C60;
-    --third-color: #e3e3e3;
-    --fourth-color: #94FBAB;
-    --fifth-color: #e2a4c4;
-    --sixth-color: #A5ABAF;
-    --light-green: #bcf8d3;
-    --light-blue: #bad9df;
-}
 body {
     padding: 4%;
 }
 
 header {
+
+}
+
+nav {
+    width: 100vw;
+    height: 3em%;
+    padding: 2em;
+
+}
+
+h1 {
+    /* just under the nav var 
+    Except on narrow screens where nav extends to 2 lines,
+    it doesn't adjust. I need variables for layout */
+    /* padding-top: 3em; */
+}
+.tile {
     padding: 2em;
 }
 
-.dark {
+.padding {
     padding: 2em;
 }
 
@@ -27,6 +34,8 @@ blockquote {
 .lyrics {
     max-height: 30em;
     overflow: auto;
+    line-height: 1.2em;
+    /* padding: 2em; */
 }
 
 
@@ -55,6 +64,11 @@ figure {
     border-radius: 20%;
 }
 
+figcaption {
+    max-width: 77%;
+    margin: auto;
+}
+
 legend {
     border-radius: 50%;
 }
@@ -63,7 +77,7 @@ fieldset.dark h2, fieldset.dark h3, fieldset.dark h4, fieldset.dark h5, fieldset
     color: var(--third-color);
 } 
 
-.pseudoheading {
+÷.pseudoheading {
     clear: both;
     display: block;
     width: 100%;
@@ -86,4 +100,8 @@ th, td {
 
 form {
     border-collapse: collapse;
+}
+
+w3-panel {
+    max-width: 75%;
 }

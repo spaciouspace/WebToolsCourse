@@ -26,9 +26,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Princess+Sofia&family=Proza+Libre&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Proza+Libre&display=swap" rel="stylesheet">    
         <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="color.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="layout.css">
         <link rel="stylesheet" href="nav-menu.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <title>Contact Us</title>
     </head>
     <body>
@@ -51,20 +54,20 @@
         </main>
         <section>
             <fieldset class="dark">
-                <legend class="dark">Get in Touch</legend>
+                <legend class="dark padding">Get in Touch</legend>
                 <h2>Personal Info</h2>
-                <form action="mailto:sherd@dallascollege.edu" id="contact" method="post">
+                <form action="mailto:sherd@dallascollege.edu" id="contact" method="post" class="w3-container">
                     <p>
                         <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" placeholder="Last Name">
+                        <input type="text" id="last-name" placeholder="Last Name" class="w3-input">
                     </p>
                     <p>
                         <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" class="w3-input">
                     </p>
                     <p>
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="email" id="email" name="email" placeholder="Email" class="w3-input">
                     </p>
                     <h2>Type of contact</h2>
                     <p class="pseudoheading">
@@ -73,11 +76,11 @@
                     </p>
                     <p>
                         <label for="suggestion">Suggestion</label>
-                        <input type="radio" id="suggestion" name="contact-type"><br>
+                        <input type="radio" id="suggestion" name="contact-type" class="w3-input">
                         <label for="comment">Comment</label>
-                        <input type="radio" id="comment" name="contact-type"><br>
+                        <input type="radio" id="comment" name="contact-type" class="w3-input">
                         <label for="question">Question</label>
-                        <input type="radio" id="question"name="contact-type">
+                        <input type="radio" id="question" name="contact-type" class="w3-input">
                     </p>
 
                     <p>
@@ -89,9 +92,9 @@
                         </select>
                     </p>
                     <p><label for="signup">Sign Up For Newsletter</label><input type="checkbox" id="signup" name="signup"></p>
-                    <p><input type="submit" id="submit" value="Submit Form"></p>
+                    <p><input type="submit" id="submit" value="Submit Form" class="w3-input"></p>
 
-                    <p><input type="reset" value="Erase everything"></p>
+                    <p><input type="reset" value="Erase everything" class="w3-input"></p>
                 </form>
             </fieldset>
         </section>

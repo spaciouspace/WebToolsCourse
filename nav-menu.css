@@ -1,15 +1,9 @@
-:root {
-  --primary-color: #001B2E;
-  --secondary-color: #294C60;
-  --third-color: #e3e3e3;
-  --fourth-color: #94FBAB;
-  --fifth-color: #e2a4c4;
-  --sixth-color: #A5ABAF;
-  --light-green: #bcf8d3;
-  --light-blue: #bad9df;
-}
-
 /* Set nav to sticky or fixed */
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
