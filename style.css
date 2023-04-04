@@ -133,3 +133,7 @@ legend.dark{
 i {
     font-size: 10em;
 }
+
+name {
+    color: var(--primary-color);
+}
