@@ -8,3 +8,18 @@
     --light-green: #bcf8d3;
     --light-blue: #bad9df;
 }
+
+.w3-bg-color1 {
+    background: w3-blue;
+} 
+.w3-text-color1 {
+    color: w3-text-blue;
+}
+.w3-bg-color2 {
+    background: w3-blue-grey;
+}
+.w3-text-color2 {
+    color: w3-text-blue-grey;
+}
+
+

@@ -128,3 +128,8 @@ tr:nth-child(odd) {
 legend.dark{
     background-color: var(--secondary-color);
 }
+
+/* does not change icon size? used fa-5x instead */
+i {
+    font-size: 10em;
+}

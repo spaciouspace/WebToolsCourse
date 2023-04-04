@@ -102,6 +102,15 @@ form {
     border-collapse: collapse;
 }
 
-w3-panel {
+.fa-huge {
+    height: 250px;
+}
+
+.w3-panel {
     max-width: 75%;
+}
+
+/* places fa icons in a nicer position relative to text */
+.tall-line {
+    line-height: 500px;
 }
