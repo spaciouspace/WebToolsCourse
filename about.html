@@ -4,14 +4,14 @@
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="color.css">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="layout.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="color.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="layout.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -24,20 +24,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FAQ</a>
-    <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gallery</a>
-    <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-text-white">Home</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white">FAQ</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white">Gallery</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white">Contact</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-text-black">About</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="faq.html" class="w3-bar-item w3-button w3-padding-large">FAQ</a>
-    <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large">Gallery</a>
-    <a href="contact-us.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large dark">Home</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-padding-large dark">FAQ</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large dark">Gallery</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button w3-padding-large dark">Contact</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large dark">About</a>
     <!-- <nav class="topnav dark"> -->
       <!-- <a href="index.html">Home</a> -->
       <!-- <a href="faq.html">FAQ</a> -->
@@ -50,8 +50,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-blue-grey w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo name dark">Carla</h1>
+<header class="w3-container w3-blue-grey w3-center" style="background-color:w3-blue-grey padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo w3-blue-grey">Carla</h1>
   <p class="w3-xlarge">About Me</p>
   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
 </header>
@@ -96,7 +96,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <div class="w3-third w3-center tall-line">
       <!-- fa was fa fa-anchor -->
-      <i class="fa fa-cubes fa-5x w3-padding-64 w3-text-blue-grey"></i>
+      <i class="fa fa-cubes size-10x w3-padding-64 w3-text-blue-grey w3-margin w3-margin-top-32 w3-padding"></i>
       <!-- <img class="fa-huge" src="images/face-smile-regular.png" alt=""> -->
     </div>
   </div>
@@ -106,7 +106,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-third w3-center">
       <!-- fa was fa fa-coffee -->
-      <i class="fa fa-smile-o fa-5x w3-padding-64 w3-text-blue-grey w3-margin-right"></i>
+      <i class="fa fa-smile-o size-10x w3-padding-64 w3-text-blue-grey w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">

@@ -7,8 +7,8 @@ header {
 }
 
 nav {
-    width: 100vw;
-    height: 3em%;
+    /* width: 100vw; */
+    /* height: 3em; */
     padding: 2em;
 
 }
@@ -19,6 +19,11 @@ h1 {
     it doesn't adjust. I need variables for layout */
     /* padding-top: 3em; */
 }
+
+i {
+    vertical-align: middle;
+}
+
 .tile {
     padding: 2em;
 }
@@ -114,3 +119,4 @@ form {
 .tall-line {
     line-height: 500px;
 }
+
