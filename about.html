@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>Cat Stevens</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="nav-menu.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="color.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="layout.css">
@@ -18,17 +19,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
 </head>
-<body>
 
 <!-- Navbar -->
-<div class="w3-top">
+<div class="sticky w3-top">
   <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-text-white">Home</a>
-    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white">FAQ</a>
-    <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white">Gallery</a>
-    <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white">Contact</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-text-black">About</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-text-white dark">Home</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white dark">FAQ</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white dark">Gallery</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-text-white dark">Contact</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-text-black dark">About</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -45,14 +45,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <!-- <a href="contact-us.html">Contact</a>  -->
       <!-- <a href="about.html">About</a> -->
   <!-- </nav> -->
-
-  </div>
 </div>
+</div>
+<body class="w3-white"> For some strange reason, w3 validator says this is an extra tag
 
 <!-- Header -->
-<header class="w3-container w3-blue-grey w3-center" style="background-color:w3-blue-grey padding:128px 16px">
+<header class="w3-container w3-blue-grey w3-center">
   <h1 class="w3-margin w3-jumbo w3-blue-grey">Carla</h1>
-  <p class="w3-xlarge">About Me</p>
+  <h2 class="w3-xlarge dark">About Me</h2>
   <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
 </header>
 
@@ -60,9 +60,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Learner</h1>
+      <h2>Learner</h2>
       <div class="w3-container w3-card-4 w3-padding">
-        <h4>Computer Languages</h4>
+        <h3>Computer Languages</h3>
         <ul class="w3-text-grey">
           <li class="w3-hover-blue-grey">Python</li>
           <li class="w3-hover-blue-grey">HTML</li>
@@ -76,7 +76,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         </ul>
       </div>
       <div class="w3-container w3-card-4 w3-padding">
-        <h4>Languages</h4>
+        <h3>Languages</h3>
         <ul class="w3-text-grey">
           <li class="w3-hover-blue-grey">Spanish -- Advanced</li>
           <li class="w3-hover-blue-grey">Russian -- Intermediate</li>
@@ -84,7 +84,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         </ul>
       </div>
       <div class="w3-container w3-card-4 w3-padding">
-        <h4>Just For Fun</h4>
+        <h3>Other</h3>
+        <ul class="w3-text-grey">
+          <li class="w3-hover-blue-grey">Linux</li>
+          <li class="w3-hover-blue-grey">Wordpress</li>
+          <!-- <li class="w3-hover-blue-grey">AWS</li> -->
+        </ul>
+      </div>
+      <div class="w3-container w3-card-4 w3-padding">
+        <h3>Just For Fun</h3>
         <ul class="w3-text-grey">
           <li class="w3-hover-blue-grey">Jump Rope</li>
           <li class="w3-hover-blue-grey">Flow Rope</li>
@@ -95,9 +103,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
 
     <div class="w3-third w3-center tall-line">
-      <!-- fa was fa fa-anchor -->
       <i class="fa fa-cubes size-10x w3-padding-64 w3-text-blue-grey w3-margin w3-margin-top-32 w3-padding"></i>
-      <!-- <img class="fa-huge" src="images/face-smile-regular.png" alt=""> -->
     </div>
   </div>
 </div>
@@ -105,23 +111,24 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <!-- fa was fa fa-coffee -->
       <i class="fa fa-smile-o size-10x w3-padding-64 w3-text-blue-grey w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">History</h5>
+      <h2>History & Future</h2>
+      <h3 class="w3-padding-32">Future</h3>
 
-      <p class="w3-text-grey">I started learning Python, HTML, CSS, and Javascript through Udacity's free courses. They were so much much fun that I continued learning Python at DataCamp. Eventually, I wanted to get a more solid academic background, and feedback to fill in the gaps, and I started taking more formal community college Computer Science, Web Development, and IT courses. I like learning new things, and especially, solving complex logical puzzles. My assembly class involved making a tic tac toe game. I decided to experiment with the idea of storing multiple variables in one integer by storing all the moves for each player in one variable. Since assembly is the least readable language of all the ones I have worked with, this was a fun and harmless experiment. But, of course, I wouldn't do somehting like that in Python.</p>
+        <p class="primary-text-color">I would like the opportunity to use my creative problem solving skills, and basic to intermediate level knowldge of these languages to make and do interesting things. </p>
+        <h3 class="w3-padding-32">History</h3>
+
+      <p class="primary-text-color">I started learning Python, HTML, CSS, and Javascript through Udacity's free courses. They were so much much fun that I continued learning Python at DataCamp. Eventually, I wanted to get a more solid academic background, and feedback to fill in the gaps, and I started taking more formal community college Computer Science, Web Development, and IT courses. I like learning new things, and especially, solving complex logical puzzles. My assembly class involved making a tic tac toe game. I decided to experiment with the idea of storing multiple variables in one integer by storing all the moves for each player in one variable. Since assembly is the least readable language of all the ones I have worked with, this was a fun and harmless experiment. But, of course, I wouldn't do somehting like that in Python.</p>
     </div>
   </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge dark">Quote of the day: "Life shrinks or expands in proportion to one's courage." – Anais Nin
-
-    </h1>
+    <h2 class="w3-margin w3-xlarge w3-text-white">Quote of the day: "Life shrinks or expands in proportion to one's courage." – Anais Nin
+    </h2>
 </div>
 
 <!-- Footer -->

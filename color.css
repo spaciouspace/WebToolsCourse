@@ -10,7 +10,7 @@
 }
 
 .w3-bg-color1 {
-    background: w3-blue;
+    background: w3-light-grey;
 } 
 .w3-text-color1 {
     color: w3-text-blue;
@@ -23,3 +23,7 @@
 }
 
 
+.primary-text-color {
+    color: #001B2E;
+
+}
